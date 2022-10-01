@@ -1,2 +1,5 @@
 numpy
-panda
+pandas
+
+switched to developer
+
