@@ -11,9 +11,9 @@ def prime(n):
     else:
         return False
     
+limit= input("Enter the limit: ")
 
-
-for num in range(2, 1000):
+for num in range(2, limit+1):
     res= prime(num)
     if res:
         print(f"{num} is a prime number")
