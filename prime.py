@@ -11,9 +11,12 @@ def prime(n):
     else:
         return False
     
-limit= input("Enter the limit: ")
+lower_limit= input("Enter the lower limit: ")
+upper_limit= input("Enter the upper limit: ")
 
-for num in range(2, limit+1):
+
+
+for num in range(lower_limit, upper_limit+1):
     res= prime(num)
     if res:
         print(f"{num} is a prime number")
